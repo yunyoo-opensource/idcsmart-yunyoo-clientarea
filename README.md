@@ -1,4 +1,4 @@
-# MofunFinance Yunyoo Client Area Template
+# Idcsmart Yunyoo Client Area Template
 
 Language: English | [简体中文](README.zh-CN.md)
 
