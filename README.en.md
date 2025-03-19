@@ -28,7 +28,7 @@ YUNYOO Themes will be continuously maintained, updated, and improved, with more 
 
 ## Screenshots
 
-| Client Area | Shopping Cart |  
+| Client Area | [Shopping Cart](https://github.com/yunyoo-opensource/idcsmart-yunyoo-cart) |  
 | --- | --- |  
 | ![2](https://github.com/user-attachments/assets/bbebd6f8-05a3-4a38-b949-b902c5a300f4) | ![3](https://github.com/user-attachments/assets/47366b58-00c2-4040-93c4-6223cdacebed) |  
 

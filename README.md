@@ -25,7 +25,7 @@ YUNYOO Themes 会持续维护更新和优化完善，不断提供更多的新功
 
 ## 截图
 
-| 用户中心 | 购物车 | 
+| 用户中心 | [购物车](https://github.com/yunyoo-opensource/idcsmart-yunyoo-cart) | 
 | --- | --- |
 | ![2](https://github.com/user-attachments/assets/bbebd6f8-05a3-4a38-b949-b902c5a300f4) | ![3](https://github.com/user-attachments/assets/47366b58-00c2-4040-93c4-6223cdacebed) |
 
