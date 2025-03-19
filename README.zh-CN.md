@@ -31,7 +31,7 @@ Language: [English](README.md) | 简体中文
 
 ## 更多
 
-- 搭配的购物车模板：[Yunyoo Cart](https://github.com/yunyoo-opensource/idcsmart-yunyoo-cart)
+- 搭配的购物车模板：[idcsmart-yunyoo-cart](https://github.com/yunyoo-opensource/idcsmart-yunyoo-cart)
 <details>
 <summary>购物车模板截图</summary>
 

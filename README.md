@@ -31,7 +31,7 @@ Language: English | [简体中文](README.zh-CN.md)
 
 ## More
 
-- Matching shopping cart template: [Yunyoo Cart](https://github.com/yunyoo-opensource/idcsmart-yunyoo-cart)
+- Matching shopping cart template: [idcsmart-yunyoo-cart](https://github.com/yunyoo-opensource/idcsmart-yunyoo-cart)
 <details>
 <summary>Shopping cart template screenshots</summary>
 
