@@ -1,6 +1,6 @@
 # 魔方财务 YUNYOO 客户区模板
 
-Language: [English](README.md) | 简体中文
+Language: 简体中文 | [English](README.en.md)
 
 ![1](https://github.com/user-attachments/assets/b5b43692-197c-44b2-8814-164144deb5d6)
 
