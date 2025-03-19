@@ -35,7 +35,7 @@ Language: English | [简体中文](README.zh-CN.md)
 <details>
 <summary>Shopping cart template screenshots</summary>
 
-![image](https://github.com/user-attachments/assets/0f09dc13-5061-4b72-b1b8-2e874650fa39)
+![image](https://github.com/user-attachments/assets/5253a5c6-2a63-4f08-9d0b-e6f6929a9fb5)
 </details>
 
 ## License

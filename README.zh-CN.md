@@ -35,7 +35,7 @@ Language: [English](README.md) | 简体中文
 <details>
 <summary>购物车模板截图</summary>
 
-![image](https://github.com/user-attachments/assets/0f09dc13-5061-4b72-b1b8-2e874650fa39)
+![image](https://github.com/user-attachments/assets/5253a5c6-2a63-4f08-9d0b-e6f6929a9fb5)
 </details>
 
 ## 许可证
