@@ -22,6 +22,7 @@ Language: [English](README.md) | 简体中文
 
 - 优雅的UI
 - 美观的布局
+- 统一的设计风格
 
 
 ## 快速开始

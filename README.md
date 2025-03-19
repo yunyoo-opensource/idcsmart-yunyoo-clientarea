@@ -22,7 +22,7 @@ Language: English | [简体中文](README.zh-CN.md)
 
 - Elegant UI
 - Beautiful Layout
-
+- Unified Design Style
 
 ## Quick Start
 
