@@ -1,0 +1,226 @@
+<style>
+.card.bg-primary {
+	background-image: linear-gradient(85deg, #6064ff, #3656ff);
+	}
+.detail-pages {
+	display: flex;
+    flex-wrap: wrap;
+}
+.detail-sidebar {
+    width: 35%;
+    max-width: 315px;
+}
+.detail-body {
+    flex: 1;
+    width: 65%;
+    margin-left: 24px;
+}
+.item-list {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.item-list li {
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+    display: table-row;
+}
+.item-list li label {
+    margin-bottom: 0;
+    display: inline-block;
+    white-space: nowrap;
+    color: #89929a;
+    vertical-align: baseline;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+}
+.item-list li span {
+    padding-top: 6px;
+    display: table-cell;
+    vertical-align: top;
+    word-break: break-word;
+    padding-right: 24px;
+    width: 100%;
+    color: #565c70;
+}
+.nav-tabs-custom {
+	
+}
+.nav-tabs-custom .nav-item {
+	margin-bottom: -2px;
+}
+.nav-tabs-custom .nav-item .nav-link {
+	line-height: 40px;
+	padding-top: 0;
+	padding-bottom: 0;
+	min-width: 80px;
+    text-align: center;
+}
+.nav-tabs-custom .nav-item .nav-link::after {
+	height: 3px;
+}
+.detail-items,
+.detail-item:first-child {
+	display: flex;
+	align-items: center;
+}
+.detail-item {
+	min-width: 120px;
+	padding: 0 1.5rem;
+	border-right: 1px solid hsla(0,0%,100%,.21);
+}
+.detail-item:first-child {
+	padding-left: 0;
+}
+.detail-item:last-child {
+	border-right: 0 none;
+	flex: 1;
+}
+.detail-item-icon {
+	margin-right: 1rem;
+}
+.detail-item-title {
+	color: #FFF;
+	font-size: 16px;
+}
+.detail-item-icon {
+	border-radius: 4px;
+	width: 48px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.detail-item-icon i {
+	font-size: 36px;
+	color: #34c38f;
+}
+.detail-item-num {
+	font-size: 16px;
+	color: #FFF;
+	font-weight: 400;
+}
+.detail-item-desc {
+	display: flex;
+	align-items: center;
+}
+.detail-item-desc > * {
+	margin-right: 5px;
+}
+</style>
+
+<div class="row">
+	<div class="col-12">
+		<div class="card bg-primary text-white">
+			<div class="card-body">
+				<div class="detail-items">
+					<div class="detail-item">
+						<div class="detail-item-icon bg-white">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="detail-item-info">							
+							<h4 class="detail-item-title">{$Detail.detail.host_data.productname}</h4>
+							<div class="detail-item-desc text-white-50">
+								{$Detail.detail.host_data.domain}
+							</div>
+						</div>
+					</div>
+					<div class="detail-item">
+						<h4 class="detail-item-num">
+							{foreach :explode("-", $Detail.detail.host_data.os) as $val}
+								{$val}
+							{/foreach}
+						</h4>
+						<div class="detail-item-desc text-white-50">
+							<i class="bx bx-cog"></i> 操作系统
+						</div>
+					</div>
+					<div class="detail-item">
+						<h4 class="detail-item-num">8核</h4>
+						<div class="detail-item-desc text-white-50">
+							<i class="bx bx-cloud"></i> CPU
+						</div>
+					</div>
+					<div class="detail-item">
+						<h4 class="detail-item-num">8G</h4>
+						<div class="detail-item-desc text-white-50">
+							<i class="bx bx-data"></i> 内存
+						</div>
+					</div>
+					<div class="detail-item">
+						<h4 class="detail-item-num">{$Detail.detail.host_data.dedicatedip} <i class="bx bx-copy"></i></h4>
+						<div class="detail-item-desc text-white-50">
+							<i class="bx bx-map"></i> IP地址(个)
+						</div>
+					</div>
+					<div class="detail-item">
+						<h4 class="detail-item-num">******** <i class="bx bx-copy"></i></h4>
+						<div class="detail-item-desc text-white-50">
+							<i class="bx bx-lock-alt"></i> 密码
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	{if $Detail.detail.module_button.control}
+	<div class="col-12">
+		<div class="detail-action mb-4">
+			{foreach $Detail.detail.module_button.control as $control}
+				<button type="button" class="btn btn-primary" data-control="{$control.func}">{$control.name}</button>
+			{/foreach}
+		</div>
+	</div>
+	{/if}
+	
+	<div class="col-12">
+		<div class="detail-pages">
+			<div class="detail-sidebar">
+				<div class="card">
+					<div class="card-body">
+						<h4 class="card-title">详细信息</h4>
+						<ul class="item-list">
+							{foreach $Detail.detail.config_options as $config}
+								<li>
+									<label>{$config.name}</label>
+									<span>{$config.sub_name}</span>
+								</li>
+							{/foreach}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="detail-body">
+				<div class="card">
+					<div class="detail-nav">
+						<ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+							<li class="nav-item waves-effect waves-light">
+								<a class="nav-link {if !$Think.get.action}active{/if}" href="servicedetail" >图表</a>
+							</li>
+							<li class="nav-item waves-effect waves-light">
+								<a class="nav-link" href="servicedetail" >用量</a>
+							</li>
+							<li class="nav-item waves-effect waves-light">
+								<a class="nav-link" href="servicedetail" >升降级</a>
+							</li>
+							{foreach $Detail.detail.module_client_area as $module}
+							<li class="nav-item waves-effect waves-light">
+								<a class="nav-link " href="servicedetail?id={$Think.get.id}&action={$module.key}" role="tab">{$module.name}</a>
+							</li>
+							{/foreach}
+							<li class="nav-item waves-effect waves-light">
+								<a class="nav-link" href="servicedetail" >日志</a>
+							</li>
+						</ul>
+					</div>
+					<div class="card-body">
+						1
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

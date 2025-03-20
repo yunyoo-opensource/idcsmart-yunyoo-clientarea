@@ -1,0 +1,20 @@
+.DINCondensed-Bold {
+    font-family: DINCondensed-Bold;
+}
+
+@font-face {
+            font-family: "DINCondensed-Bold";
+            src: url("/themes/clientarea/yunyoo/assets/fonts/ced75e748b5d7ed3c8e310c6dbd27639.woff2");
+            font-style: normal;
+            font-weight: bold;
+            font-display: swap;
+            unicode-range:U+21,U+22,U+23,U+24,U+25,U+26,U+27,U+28,U+29,U+2A,U+2B,U+2C,U+2D,U+2E,U+2F,U+30,U+31,U+32,U+33,U+34,U+35,U+36,U+37,U+38,U+39,U+3A,U+3B,U+3C,U+3D,U+3E,U+3F,U+40,U+41,U+42,U+43,U+44,U+45,U+46,U+47,U+48,U+49,U+4A,U+4B,U+4C,U+4D,U+4E,U+4F,U+50,U+51,U+52,U+53,U+54,U+55,U+56,U+57,U+58,U+59,U+5A,U+5B,U+5D,U+5E,U+5F,U+60,U+61,U+62,U+63,U+64,U+65,U+66,U+67,U+68,U+69,U+6A,U+6B,U+6C,U+6D,U+6E,U+6F,U+70,U+71,U+72,U+73,U+74,U+75,U+76,U+77,U+78,U+79,U+7A,U+7B,U+7C,U+7D,U+7E,U+A1,U+A2,U+A3,U+A4,U+A5,U+A6,U+A7,U+A8,U+A9,U+AA,U+AB,U+AC,U+AE,U+AF,U+B0,U+B1,U+B2,U+B3,U+B4,U+B5,U+B6,U+B7,U+B8,U+B9,U+BA,U+BB,U+BC,U+BD,U+BE,U+BF,U+C0,U+C1,U+C2,U+C3,U+C4,U+C5,U+C6,U+C7,U+C8,U+C9,U+CA,U+CB,U+CC,U+CD,U+CE,U+CF,U+D0,U+D1,U+D2,U+D3,U+D4,U+D5,U+D6,U+D7,U+D8,U+D9,U+DA,U+DB,U+DC,U+DD,U+DE,U+DF,U+E0,U+E1,U+E2,U+E3,U+E4,U+E5,U+E6,U+E7,U+E8,U+E9,U+EA,U+EB,U+EC,U+ED,U+EE,U+EF,U+F0,U+F1,U+F2,U+F3,U+F4,U+F5,U+F6,U+F7,U+F8,U+F9,U+FA,U+FB,U+FC,U+FD,U+FE,U+FF,U+131,U+141,U+142,U+152,U+153,U+160,U+161,U+178,U+17D,U+17E,U+192,U+2C6,U+2C7,U+2D8,U+2D9,U+2DA,U+2DB,U+2DC,U+2DD,U+2013,U+2014,U+2018,U+2019,U+201A,U+201C,U+201D,U+201E,U+2020,U+2021,U+2022,U+2026,U+2030;
+        }
+@font-face {
+            font-family: "DINCondensed-Bold";
+            src: url("/themes/clientarea/yunyoo/assets/fonts/8c9077be8ba620744b82eab927711c7b.woff2");
+            font-style: normal;
+            font-weight: bold;
+            font-display: swap;
+            unicode-range:U+2039,U+203A,U+2044,U+20AC,U+2122,U+2212,U+FB01,U+FB02,U+2C9,U+2211,U+220F,U+221A,U+222B,U+2248,U+2260,U+2264,U+2265,U+221E,U+3A9,U+3BC,U+3C0,U+20,U+5C,U+2206,U+2126,U+2113,U+212E,U+2202,U+2219,U+25CA,U+A0,U+AD,U+E001,U+E000,U+2215;
+        }

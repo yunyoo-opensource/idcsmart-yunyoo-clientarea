@@ -1,0 +1,107 @@
+/* 响应式 */
+/* 表格 */
+.table td,
+.table thead th,
+.box_nowrap {
+  white-space: nowrap;
+}
+.module_chart_date {
+  display: flex;
+  align-items: center;
+}
+.btn-group.btn-group-toggle {
+  display: -webkit-inline-box !important;
+}
+.btn-group-toggle > .btn {
+  margin-bottom: 10px !important;
+}
+
+.login_right {
+  width: 65% !important;
+}
+.normalhide {
+  display: none;
+}
+@media screen and (max-width: 1366px) {
+  .login_right {
+    width: 80% !important;
+    margin: 80px 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .login_right {
+    width: 80% !important;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 995px) {
+  .security-item-desc,
+  .navbar-brand-box,
+  .phonehide {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bglogo {
+    display: none;
+  }
+  .login_right {
+    width: 100% !important;
+    margin: 80px 0;
+  }
+  .table-header,
+  .table-footer,
+  .table-pagination {
+    flex-direction: column;
+    align-items: start;
+  }
+  .table-filter,
+  .table-tools,
+  .table-pageinfo {
+    margin-bottom: 1rem;
+  }
+
+  .ststus-box .card-body {
+    padding: 0 !important;
+  }
+  .ststus-box .card-body .container-fluid {
+    margin: 0 !important;
+  }
+
+  .normalhide {
+    display: block;
+  }
+
+  /* 安全中心 */
+  .security-item-desc,
+  .navbar-brand-box,
+  .phonehide {
+    display: none !important;
+  }
+
+  /* 发票地址 */
+  .zd-cascader-menu {
+    min-width: 80px !important;
+  }
+  .zd-cascader-node {
+    padding: 0 10px !important;
+  }
+  .zd-cascader-node__postfix {
+    right: 20px !important;
+  }
+
+  .module_chart_date {
+    display: block;
+  }
+
+  .btn-group.btn-group-toggle {
+    display: -webkit-inline-box !important;
+  }
+  .btn-group-toggle > .btn {
+    margin-bottom: 10px !important;
+  }
+  .security-item-title small {
+    margin-left: 0px !important;
+  }
+}

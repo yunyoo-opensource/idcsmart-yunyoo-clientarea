@@ -1,0 +1,1 @@
+{include file="servicedetail/general"}

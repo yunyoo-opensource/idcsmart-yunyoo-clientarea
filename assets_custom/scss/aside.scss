@@ -1,0 +1,54 @@
+.product_icon {
+  cursor: pointer;
+  position: relative;
+
+  .fa-align-justify:hover {
+    color: #fff;
+  }
+}
+
+.product_wrapper {
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 40px;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 12px;
+  cursor: default;
+}
+
+.product_item {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.isActive {
+  color: #6064ff;
+}
+
+// 因为下面这行css，会导致左侧菜单无法上下滚动，但是目前菜单的数量还不足以让他出现滚动
+// 如果左侧菜单需要上下滚动，就把下面这行注释就行，但是“产品管理”右侧的按钮弹出的框
+// 将无法在再向右伸出，因为js会强制加上overflow hidden，所以看是否可以修改为向左伸出
+.simplebar-content-wrapper {
+  overflow: visible !important;
+}
+
+.simplebar-mask {
+  overflow: visible;
+}
+
+#sidebar-menu ul li a {
+  padding: 0.25rem 1.5rem;
+}
+
+body[data-sidebar="dark"] .mm-active .active {
+  background-color: #2f46b0;
+  border-radius: 16px 0 0 16px;
+}
