@@ -8,7 +8,7 @@ Language: English | [简体中文](README.md)
 
 ## Introduction
 
-**YUNYOO Themes** is a theme template based on the MofunFinance system. It features an intuitive and clean interface design, ensuring a smooth user experience while maintaining simplicity.
+**YUNYOO Themes** is a theme template based on the IdcsmartFinance system. It features an intuitive and clean interface design, ensuring a smooth user experience while maintaining simplicity.
 
 YUNYOO Themes is open-source and free under the Apache License 2.0. You are free to use and modify it as you wish.
 
@@ -48,7 +48,7 @@ YUNYOO Themes will be continuously maintained, updated, and improved, with more 
 
 ## Quick Start
 
-1. Copy all files to the `/public/themes/clientarea` directory in your MofunFinance installation directory
+1. Copy all files to the `/public/themes/clientarea` directory in your IdcsmartFinance installation directory
 2. Change the template to `yunyoo` through your admin panel
 
 
