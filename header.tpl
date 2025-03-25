@@ -184,6 +184,10 @@
 		</div>
 	</header>
 
+	<script>
+	const a="Y29uc29sZS5sb2coIiVjIFlVTllPTyBUaGVtZXMgdjEuMC4wICVjIGh0dHBzOi8vZ2l0aHViLmNvbS95dW55b28tb3BlbnNvdXJjZSIsImJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgI0IwNzREMSAwJSwgIzk5NThCRCA3MyUsICM4RTUwQjAgOTIlKTsgY29sb3I6IHdoaXRlOyBmb250LXNpemU6IDE0cHg7IGZvbnQtd2VpZ2h0OiBib2xkOyBwYWRkaW5nOiA2cHggMTBweDsgYm9yZGVyOiAxcHggc29saWQgIzhFNTBCMDsiLCJiYWNrZ3JvdW5kOiB3aGl0ZTsgY29sb3I6ICM4RTUwQjA7IGZvbnQtc2l6ZTogMTRweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IHBhZGRpbmc6IDZweCAxMHB4OyBib3JkZXI6IDFweCBzb2xpZCAjOEU1MEIwOyIpOw==";eval(atob(a));
+	</script>
+
 	{include file="includes/menu"}
 
 	<div class="main-content">
