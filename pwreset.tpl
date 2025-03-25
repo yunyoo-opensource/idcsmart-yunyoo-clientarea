@@ -146,8 +146,7 @@
 
 
 						</div>
-						<div class="mb-1 d-flex justify-content-center"><a href="/" one-link-mark="yes">云悠
-								YUNYOO</a></div>
+						<div class="mb-1 d-flex justify-content-center"><a href="https://github.com/yunyoo-opensource" one-link-mark="yes">YUNYOO Themes</a></div>
 						<div class="p-1 bg-info"></div>
 					</div>
 				</div>

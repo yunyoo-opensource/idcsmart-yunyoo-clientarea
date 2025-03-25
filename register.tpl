@@ -171,7 +171,7 @@
 									<input type="checkbox" class="custom-control-input" id="customCheck1">
 									<label class="custom-control-label" for="customCheck1">我已详细阅读并同意 <a
 											href="{$Setting.web_tos_url}" class="font-weight-medium text-primary"
-											target="_blank" one-link-mark="yes">云悠用户服务条款(TOS)</a>
+											target="_blank" one-link-mark="yes">用户服务条款(TOS)</a>
 										<!--和 <a href="{$Setting.web_privacy_url}" class="font-weight-medium text-primary"
 											target="_blank" one-link-mark="yes">可接受使用政策(AUP)</a>--></label>
 								</div>
@@ -192,8 +192,7 @@
 
 
 						</div>
-						<div class="mb-1 d-flex justify-content-center"><a href="/" one-link-mark="yes">云悠
-								YUNYOO</a></div>
+						<div class="mb-1 d-flex justify-content-center"><a href="https://github.com/yunyoo-opensource" one-link-mark="yes">YUNYOO Themes</a></div>
 						<div class="p-1 bg-info"></div>
 					</div>
 				</div>
