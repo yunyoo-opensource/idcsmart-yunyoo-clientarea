@@ -160,7 +160,7 @@
   </div>
   <!-- 可用性 -->
   <div class="col-lg-3 col-md-6">
-    <div class="card shadow-sm border-0 user-select-none link" onclick="window.location.href='addons?_plugin=pages&_controller=index&_action=status'">
+    <div class="card shadow-sm border-0 user-select-none link">
       <div class="card-body p-4 bl-global bl-hov">
         <div class="d-flex align-items-center justify-content-between">
           <div class="me-1">
